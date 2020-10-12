@@ -71,6 +71,8 @@ Write sketches to draw the following shapes:
 
 ![Sketch](images/p1.1.png)
 
+![Sketch](images/zoog.png)
+
 ![Sketch](images/pizza.png)
 
 ![Sketch](images/p1.2.png)
