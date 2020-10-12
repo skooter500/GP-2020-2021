@@ -24,11 +24,11 @@ Resources
 
 ## Assignments
 
-- Week 11 - Lab Test 15%
-- Week 13 - Assignment 1 submission 15%
-- Assignment 2 - TBC
+- Monday 7th - Assignment 1 submission 15%
+- Monday 14th - December Lab Test 25%
+- Assignment 2 - 15%
 - Assignment 3 - 20% - Week 10 Semester 2
-- End of Year lab test - 30% - TBC 
+- End of Year lab test - 25% - TBC 
 
 
 ### Semester 1 
@@ -70,5 +70,7 @@ Write sketches to draw the following shapes:
 ![Sketch](images/p1.png)
 
 ![Sketch](images/p1.1.png)
+
+![Sketch](images/pizza.png)
 
 ![Sketch](images/p1.2.png)
