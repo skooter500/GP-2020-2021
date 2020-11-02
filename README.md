@@ -33,6 +33,39 @@ Resources
 
 ### Semester 1 
 
+## Week 4 - The if statement
+
+[![YouTube](http://img.youtube.com/vi/mVq7Ms01RjA/0.jpg)](https://www.youtube.com/watch?v=mVq7Ms01RjA)
+
+
+Exercises
+- Left side right of screen exercise
+- 4 Quadrants exercise
+- Rectangle rollover
+- Inside a circle
+- Ball left & right
+- Ball bounce around the screen
+- Keyboard handling
+- State
+
+Part 1
+
+- [Download and unzip the starter project for today's lab](https://github.com/skooter500/GP-2017-2018/blob/master/downloads/rick_n_morty_starter.zip?raw=true) 
+- Open the sketch and you will see that it displays a picture from Rick and Morty
+- The aim of the lab today is to modify the sketch so that it displays a button in the center of the screen
+- When the button is clicked, it should change colour and play the sound file. Here is what the finished sketch should look like:
+
+[![YouTube](http://img.youtube.com/vi/BR1p2Dl6ELE/0.jpg)](https://www.youtube.com/watch?v=BR1p2Dl6ELE)
+
+- To do this you will need to declare some new varialbes and use the if statement
+
+Part 2
+
+Try and make this sketch that draws a face that starts in the center of the screen and moves to the edge of the screen and then follows around the outside of the screen
+
+[![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
+
 # Week 3 - Using variables and trigonometric functions
 - [Trigonometry problem set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
@@ -44,7 +77,7 @@ Resources
 - Make beautiful things
 
 A person flying a kite has released 176m of string. The string makes an angle of 27° with the ground. How high is the kite? How far away is the kite horizontally?
-Write a p5 sketch to draw and solve the problem.
+Write a processing sketch sketch to draw and solve the problem.
   - Solve the problem on paper first
   - Make variables for stringLen, theta, kHeight, kDist and any other variables you need
   - Assign the values that you know to the variables
