@@ -30,6 +30,28 @@ Resources
 - Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 25% - TBC 
 
+## Week 7 - More Loops
+
+### Put these loops into the setup method:
+
+- Print the numbers from 0 to 9. How many numbers are printed?
+- Print the numbers from 9 to 0 in reverse order
+- Print all the even numbers between 100 and 200
+- Sum all the numbers between 0 and 100
+- Calculate the factorial of 10
+- Print the even numbers between 200 and 100 backwords
+- Print the 6 times tables up to 12
+- Print the Fibonacci sequence up to 100
+
+### Put these loops into the draw method:
+
+- Draw 6 circles across the screen
+- Draw 10 rects across the screen
+- Draw 20 horizontal lines
+- Draw a stripe pattern across the screen
+- Draw a grid of squares
+
+
 ## Week 6 - Loops
 
 - Practice generating lots of different shapes with loops in processing
