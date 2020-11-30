@@ -30,6 +30,58 @@ Resources
 - Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 25% - TBC 
 
+# Week 9 - Arrays
+
+[![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
+
+## Lab
+### Learning outcomes
+- Learn how to allocate arrays
+- Learn how to store values in arrays
+- Practice iterating arrays
+
+Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
+
+| Month | Amount in mm |
+|-------|--------------|
+| Jan | 45 |
+| Feb | 37 |
+| March | 55 |
+| April | 27 |
+| May | 38 |
+| June | 50 |
+| July | 79 |
+| August | 48 |
+| September | 104 |
+| October | 31 |
+| November | 100 |
+| December | 58 |
+
+Create a Processing sketch and do the following:
+
+- Allocate two arrays for storing the month names and the rainfall data
+- Calculate the average rainfall for that year
+- Calculate the month with the highest rainfall
+- Calculate the month with the lowest rainfall
+
+Now see if you can write code to generate the following graphs of the rainfall data:
+
+- A bar chart:
+
+  ![Sketch](images/p11.png)
+
+- A trend line:
+
+  ![Sketch](images/p12.png)
+
+Advanced:
+
+Try and draw a pie chart!
+
+![Sketch](images/p25.png)
+
+Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. You an use random colours so that every month has a different colour.
+
 ## Week 7 - More Loops
 
 ### Put these loops into the setup method:
