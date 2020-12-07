@@ -124,11 +124,9 @@ void rules()
       board = nextBoard;
       nextBoard = temp;
     }
-  
+  }
   
 }
-
-
 
 void draw()
 {
