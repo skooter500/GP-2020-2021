@@ -1,6 +1,8 @@
 void setup()
 {
   size(500, 500);
+  
+  println(rainfall[8]);
 
   for (int i = 0 ; i < rainfall.length ; i ++)
   {
@@ -57,6 +59,7 @@ void setup()
 
 
 float[] rainfall = {45, 37, 55, 27, 38, 50, 79, 48, 104, 31, 100, 58};
+float[] a = new float[12];
 
 String[] months = {"Jan", "Feb", "March", "April", "May", "June" , "july", "August", "Sept", "Oct", "Nov", "Dec"}; 
 
