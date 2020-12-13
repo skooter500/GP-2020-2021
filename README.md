@@ -30,6 +30,39 @@ Resources
 - Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 25% - TBC 
 
+# Week 11 - End of semester test
+
+Today you will be making this:
+
+[![YouTube](http://img.youtube.com/vi/j1ZmjAY4gwY/0.jpg)](https://www.youtube.com/watch?v=j1ZmjAY4gwY)
+
+What is happening:
+
+- Balloons appear from the bottom of the screen and "float" to the top as per the video 
+- As balloons float to the top they gradually get smaller
+- Each new balloon has a random color
+- The player has to pop the balloons by clicking on the balloon. This increases the popped score by one
+- If a balloon reaches the top without being popped, this increases the missed score by one
+
+Marking Scheme:
+
+| Feature | Marks |
+|---------|-------|
+| Declaring appropriate variables | 20 marks |
+| Drawing the balloon | 20 marks |
+| Moving the balloon | 20 marks |
+| Scoring | 30 marks |
+| Jazz | 10 marks |
+
+Hints! 
+
+- To check for the mouse press, you can add a [void mousePressed()](https://processing.org/reference/mousePressed_.html) function. This function gets called automatically when the mouse is pressed on a sketch window.
+- You can check for balloon popping by checking if the distance from the balloon centre to the mouse and y < radius of the balloon. You can use the [dist function](https://processing.org/reference/dist_.html) for this
+- To get full marks, make some functions other than draw and setup
+- To get the 10 Jazz marks, add something else cool to your sketch like sound or Perlin noise or something else cool you know in Programming.
+
+# Week 10 - The Game of Life
+
 # Week 9 - Arrays
 
 [![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
