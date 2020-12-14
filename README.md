@@ -32,7 +32,7 @@ Resources
 
 # Week 11 - End of semester test
 
-Today you will be making this:
+Today you will be making this (click for video):
 
 [![YouTube](http://img.youtube.com/vi/j1ZmjAY4gwY/0.jpg)](https://www.youtube.com/watch?v=j1ZmjAY4gwY)
 
