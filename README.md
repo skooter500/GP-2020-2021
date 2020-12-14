@@ -44,6 +44,14 @@ What is happening:
 - The player has to pop the balloons by clicking on the balloon. This increases the popped score by one
 - If a balloon reaches the top without being popped, this increases the missed score by one
 
+Name your sketches with your student number and name. For example:
+
+C1234567_Duggan_Bryan.pde
+
+Also include your student number and name in the comments of your sketch.
+
+Submit your work through Brightspace
+
 Marking Scheme:
 
 | Feature | Marks |
