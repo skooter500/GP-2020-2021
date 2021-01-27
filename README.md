@@ -30,6 +30,27 @@ Resources
 - Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 25% - TBC 
 
+# Semester 2
+
+## Week 1 - Digital Audio
+
+### Lab
+
+## Part 1
+Try the lerping technique on the actual audio samples. To do this:
+- Make an array of type float the same size as the audio buffer
+- Lerp each element of the array to the corresponding buffer element
+- Draw using the lerped values instead of the buffer values
+
+## Part 2 
+- Make this little ellipse whose size and speed of movement is controlled by how loud the sound it:
+
+[![YouTube](http://img.youtube.com/vi/5Twdbqxrpdg/0.jpg)](https://www.youtube.com/watch?v=5Twdbqxrpdg)
+
+## Part 3
+- See what other drawing elements - rectangles, triangles etc you can control using the average amplitude of the sound
+
+
 # Week 11 - End of semester test
 
 Today you will be making this (click for video):
