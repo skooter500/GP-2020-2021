@@ -34,11 +34,13 @@ Resources
 
 ## Week 2 - More Digital Audio
 
-### Lab
+### Lab 2
 
 Download [this starter sketch](downloads/audioStarter.zip) and audio file and run it. Have a look at the code and make sure you understand it. Have a look at the keyPressed function. This starts and restarts the audio file when you press space. Also it sets the value of the ```which``` variable to be the numbers 0-5 when you press the appropriate key on the keyboard.
 
 Ok now check out this video of 5 visuals you can make today. Pressing the keys 0-4 on the keyboard should change the visual in your sketch.
+
+[![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
 
 - 0 - The wavy lines visual
 - 1 - The waveform
