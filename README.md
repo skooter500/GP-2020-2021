@@ -49,6 +49,8 @@ Ok now check out this video of 5 visuals you can make today. Pressing the keys 0
 - 4 - The square - Again use the lerped amplitude to control the size of the square. You can also use rectMode(CENTER) to make the x and y parameters of the rect function determine the center of the rect rather than the coordinates of the top left corner
 - 5 - There is no visual associated with 5 in the video, so come up with your own!
 
+- [Solution](sketches/audio4/audio4.pde)
+
 ## Week 1 - Digital Audio
 
 ### Lab
