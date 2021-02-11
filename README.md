@@ -35,12 +35,14 @@ Resources
 ## Week 3 - Visualising the FFT (Frequency Spectrum)
 
 ### Lecture
-- [Video of the class]()
+- [Video of the class](https://web.microsoftstream.com/video/c4ebfb57-8ed1-415d-a102-63b5ba451c29)
 - [FFT Sketch we wrote](sketches/fft/fft.pde)
 
 ### Lab
 
 Here is a visual you can make today!
+
+- [Video of the lab](https://web.microsoftstream.com/video/5387692b-465a-41f4-a88d-215945296fba)
 
 [![YouTube](http://img.youtube.com/vi/qgU66gfApno/0.jpg)](https://www.youtube.com/watch?v=qgU66gfApno)
 
