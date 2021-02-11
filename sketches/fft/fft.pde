@@ -12,6 +12,7 @@ AudioBuffer ab;
 float halfHeight;
 
 FFT fft;
+float lerpedFrequency;
 
 void setup()
 {
@@ -41,13 +42,33 @@ void draw()
   fft.window(FFT.HAMMING);
   fft.forward(ab);
   int highestBin = 0;
+  float highest = 0;
+  
   for(int i = 0 ; i < fft.specSize() ; i ++)
   {
     float c = map(i, 0, ab.size(), 0, 255);
     stroke(c, 255, 255);
     line(i, 0, i, fft.getBand(i) * halfHeight);
+    if (fft.getBand(i) > highest)
+    {
+      highest = fft.getBand(i);
+      highestBin = i;      
+    }
   }
   
   println("Highest bin: " + highestBin);
+  
+  
+  float freq = fft.indexToFreq(highestBin);
+  lerpedFrequency = lerp(lerpedFrequency, freq, 0.1f);
+  
+  noStroke();
+  fill(255);
+  float y = map(lerpedFrequency, 900, 2500, height, 0);
+  ellipse(100, y, 50, 50);
+
+  textSize(20);
+  fill(255);
+  text("Freq: " + freq, 100, 200);
   
 }
