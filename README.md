@@ -32,6 +32,34 @@ Resources
 
 # Semester 2
 
+## Week 3 - Visualising the FFT (Frequency Spectrum)
+
+### Lecture
+- [Video of the class]()
+- [FFT Sketch we wrote](sketches/fft/fft.pde)
+
+### Lab
+
+Here is a visual you can make today!
+
+[![YouTube](http://img.youtube.com/vi/qgU66gfApno/0.jpg)](https://www.youtube.com/watch?v=qgU66gfApno)
+
+- Start with [this starter sketch](downloads/audioStarter.zip) (from last week)
+- Modify the sketch as follows:
+  - Firstly modify the keyPressed method to detect the keys 6 and 7 and assign the value to the which variable:
+  ```Java
+  if (keyCode >= '0' && keyCode <= '7')
+  {
+    which = keyCode - '0';
+  }  
+  ```
+  - Set up the FFT object as per [the sketch we made today](sketches/fft/fft.pde)
+  - Make it so that when you press 6 it shows the FFT from left to right (same as the class). To do this put code into the draw function.
+  - Modify the FFT visual like this:
+    - Lerp the elements in the FFT array (the same way we lerped the waveform). To do this you should create a new array called ```lerpedFFT``` the same size as fft.specSize() and put in the lerping code
+    - Draw above and below the center line. Values in the FFT array go from 0 - 1 instead of from -1 to 1 as in the waveform array
+  - Now write code in draw for the 7 visual that draws the circular visual in the video. To do this you will can map i from 0 to fft.specSize() onto the range 0 to TWO_PI to get the angle and use sin & cos to calculate the points on the outside of the circle (remember spirals from semester 1??). Now draw lines from above the point to below the point using the lerpedFFT values
+
 ## Week 2 - More Digital Audio
 
 ### Lab 2
