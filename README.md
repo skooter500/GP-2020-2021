@@ -32,6 +32,19 @@ Resources
 
 # Semester 2
 
+## Week 4 3D Cubes & Spheres responding to music
+- [The code we wrote](sketches/threeDCube.pde)
+
+## Lab
+
+Work in a team or 2 or 3 and make a Processing sketch on the theme:
+
+"What does love mean to me"
+
+Here is some inspiration from sketches my class wrote a couple of years ago
+
+- [Click the link!](https://www.facebook.com/skooter500/posts/10158566184619199)
+
 ## Week 3 - Visualising the FFT (Frequency Spectrum)
 
 ### Lecture

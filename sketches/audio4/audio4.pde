@@ -24,7 +24,7 @@ void setup()
   player = minim.loadFile("Etherwood.mp3", width);
   //player.play();
   //ai = minim.getLineIn(Minim.MONO, width, 44100, 16);
-  buffer = player.left;
+  buffer = player.mix;
 
   lerpedBuffer = new float[buffer.size()];
 }
