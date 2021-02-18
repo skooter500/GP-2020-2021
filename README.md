@@ -45,6 +45,10 @@ Here is some inspiration from sketches my class wrote a couple of years ago
 
 - [Click the link!](https://www.facebook.com/skooter500/posts/10158566184619199)
 
+## Lecture - 3D Cube & Sphere
+-[Video of the class](https://web.microsoftstream.com/video/2277338a-44b9-4a0c-a8fc-6416da9d44fb)
+
+
 ## Week 3 - Visualising the FFT (Frequency Spectrum)
 
 ### Lecture
