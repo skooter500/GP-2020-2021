@@ -56,6 +56,9 @@ There are two "spaceships" that start in the centre of the screen and move towar
 
 To get full marks, you should use loops, arrays, the if statement and a class in your solution.
 
+## Lecture
+- [Video of the class](https://web.microsoftstream.com/video/d3dfd721-dcfb-41e0-9a0f-1e416dcbe74a)
+
 ## Week 4 3D Cubes & Spheres responding to music
 - [The code we wrote](sketches/threeDCube.pde)
 
