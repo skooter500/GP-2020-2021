@@ -32,6 +32,30 @@ Resources
 
 # Semester 2
 
+## Week 5 - Classes & transforms
+- Classes
+- [pushMatrix](https://processing.org/reference/pushMatrix_.html) & [popMatrix](https://processing.org/reference/popMatrix_.html)
+
+## Lab
+
+Please answer [this survey](https://docs.google.com/forms/d/e/1FAIpQLSdXkFHosHLBQ9KxMM03_gsE2-YHPG8TbdimxHlrTsZLxtknGw/viewform).
+
+Try the end of year lab test from 2020:
+
+This is a video of what you will be making today:
+
+[![YouTube](http://img.youtube.com/vi/yL6v7XNdGcE/0.jpg)](https://youtu.be/yL6v7XNdGcE)
+
+What is happening:
+
+There are 100 stars drawn in the top half of the screen. They are drawn as crosses. They have randomly assigned colours.
+
+The colours on the lines that meet in the centre span the HSB colour space.
+
+There are two "spaceships" that start in the centre of the screen and move towards the sides. When each ship reaches the side of the screen, it changes direction and comes back.
+
+To get full marks, you should use loops, arrays, the if statement and a class in your solution.
+
 ## Week 4 3D Cubes & Spheres responding to music
 - [The code we wrote](sketches/threeDCube.pde)
 
