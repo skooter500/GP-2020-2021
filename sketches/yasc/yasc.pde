@@ -7,6 +7,9 @@ boolean checkKey(int k)
   return false;
 }
 boolean[] keys = new boolean[526];
+
+ArrayList<Bullet> bullets = new ArrayList<Bullet>(); 
+
 void keyPressed()
 { 
   keys[keyCode] = true;
@@ -30,9 +33,20 @@ void draw()
 {
   background(0);
   stroke(255);  
-  player.move();
+  player.update();
   player.render();
   
-  player1.move();
+  player1.update();
   player1.render();
+  
+  for(int i = 0 ; i < bullets.size() ; i ++)
+  {
+    Bullet b = bullets.get(i);
+    b.render();
+    b.move();
+  }
+  
+  text("Bullets: " + bullets.size(), 20, 20);
+  text("Framerate: " + frameRate, 20, 50);
+  
 }

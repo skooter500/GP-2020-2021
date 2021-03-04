@@ -19,9 +19,15 @@ class Player
   // Fields
   float playerX;
   float playerY;
+  
+  float moveX, moveY;
+  
   float playerWidth = 50;
   float halfPlayer = playerWidth / 2.0f;
   float rotation = 0;
+  
+  int fireRate = 2;
+  int health = 10;
   
   // Methods
   void render()
@@ -34,12 +40,46 @@ class Player
     line(halfPlayer, halfPlayer, 0, 0);
     line(0, 0, - halfPlayer, halfPlayer);
     popMatrix();
+    text("Health: " + health, playerX + 20, playerY - 20);
   }
   
+  float ellapsed;
+  float toPass = 1 / (float) fireRate;
+  void shoot()
+  {
+    if (checkKey(' ') && ellapsed >= toPass)
+    {
+      float x, y;
+      x = playerX + (moveX * 30);
+      y = playerY + (moveY * 30);
+      Bullet b = new Bullet(x, y, rotation);
+      bullets.add(b);
+      ellapsed = 0;
+    }
+    ellapsed += 1 / 60.0f;
+  }
+  
+  void checkCollisions()
+  {
+    for(int i = 0 ; i < bullets.size() ; i ++)
+    {
+      Bullet b = bullets.get(i);
+      float dist = dist(b.x, b.y, playerX, playerY);
+      if (dist < halfPlayer)
+      {
+        if (health > 0)
+        {
+          health --;
+          bullets.remove(b);
+        }
+      }
+      
+    }
+  }
   void move()
   {
-    float moveX = sin(rotation);
-    float moveY = - cos(rotation);
+    moveX = sin(rotation);
+    moveY = - cos(rotation);
     if (checkKey(UP))
     {
       playerX += moveX;
@@ -59,6 +99,13 @@ class Player
     if (checkKey(RIGHT))
     {
       rotation += 0.1f;
-    }    
+    }
+  }
+  
+  void update()
+  {
+    move();
+    shoot();
+    checkCollisions();
   }
 }
