@@ -10,6 +10,9 @@ class Health
   {
     this.x = x;
     this.y = y;
+    moveX = random(-1, 1);
+    moveY = random(-1, 1);
+    
   }
   
   void render()
@@ -29,6 +32,25 @@ class Health
   void move()
   {
     rotation += 0.03f;
+    x += moveX;
+    y += moveY;
+    
+    if (x < 0)
+    {
+      x = width;
+    }
+    if (x > width)
+    {
+      x = 0;
+    }
+    if (y < 0)
+    {
+      y = height;
+    }
+    if (y > height)
+    {
+      y = 0;
+    }
   }
   
 }

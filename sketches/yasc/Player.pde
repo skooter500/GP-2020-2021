@@ -1,6 +1,6 @@
 class Player
 {
-  
+
   // Default constructor
   // No parameters
   Player()
@@ -8,27 +8,27 @@ class Player
     playerX = width / 2;
     playerY = height / 2;
   }
-  
+
   // Parameterised constructor
   Player(float playerX, float playerY)
   {
     this.playerX = playerX;
     this.playerY = playerY;
   }
-    
+
   // Fields
   float playerX;
   float playerY;
-  
+
   float moveX, moveY;
-  
+
   float playerWidth = 50;
   float halfPlayer = playerWidth / 2.0f;
   float rotation = 0;
-  
+
   int fireRate = 2;
   int health = 10;
-  
+
   // Methods
   void render()
   {
@@ -42,7 +42,7 @@ class Player
     popMatrix();
     text("Health: " + health, playerX + 20, playerY - 20);
   }
-  
+
   float ellapsed;
   float toPass = 1 / (float) fireRate;
   void shoot()
@@ -58,10 +58,10 @@ class Player
     }
     ellapsed += 1 / 60.0f;
   }
-  
+
   void checkCollisions()
   {
-    for(int i = 0 ; i < bullets.size() ; i ++)
+    for (int i = 0; i < bullets.size(); i ++)
     {
       Bullet b = bullets.get(i);
       float dist = dist(b.x, b.y, playerX, playerY);
@@ -73,7 +73,17 @@ class Player
           bullets.remove(b);
         }
       }
-      
+    }
+
+    for (int i = 0; i < healths.size(); i ++)
+    {
+      Health h = healths.get(i);
+      float dist = dist(h.x, h.y, playerX, playerY);
+      if (dist < halfPlayer + h.halfSize)
+      {
+        health += 10;
+        healths.remove(h);
+      }
     }
   }
   void move()
@@ -85,13 +95,13 @@ class Player
       playerX += moveX;
       playerY += moveY;
     }
-    
+
     if (checkKey(DOWN))
     {
       playerX -= moveX;
       playerY -= moveY;
     }
-    
+
     if (checkKey(LEFT))
     {
       rotation -= 0.1f;
@@ -101,7 +111,7 @@ class Player
       rotation += 0.1f;
     }
   }
-  
+
   void update()
   {
     move();
