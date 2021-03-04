@@ -23,11 +23,14 @@ void keyReleased()
 Player player;
 Player player1;
 
+Health health;
+
 void setup()
 {
   size(500, 500);
   player = new Player();
   player1 = new Player(100, 100);
+  health = new Health(300, 100);
 }
 void draw()
 {
@@ -38,6 +41,9 @@ void draw()
   
   player1.update();
   player1.render();
+  
+  health.render();
+  health.move();
   
   for(int i = 0 ; i < bullets.size() ; i ++)
   {
