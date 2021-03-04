@@ -1,5 +1,9 @@
 # Game Programming 2020-2021
 
+## Teams Links
+- [Thursday class](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmE3NTgzMmEtNmE3Ny00M2RkLWFjYTctM2Y0ZjNjYTE0NDdm%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Thursday Lab](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDU3NDA0NjMtMmI4Zi00MzhkLTgyMjctZmIxZGUxNGNjYzA3%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+
 Resources
 ---------
 * [Processing](http://processing.org)
@@ -31,6 +35,33 @@ Resources
 - End of Year lab test - 25% - TBC 
 
 # Semester 2
+
+## Week 5 - Classes & transforms
+- Classes
+- [pushMatrix](https://processing.org/reference/pushMatrix_.html) & [popMatrix](https://processing.org/reference/popMatrix_.html)
+
+## Lab
+
+Please answer [this survey](https://docs.google.com/forms/d/e/1FAIpQLSdXkFHosHLBQ9KxMM03_gsE2-YHPG8TbdimxHlrTsZLxtknGw/viewform).
+
+Try the end of year lab test from 2020:
+
+This is a video of what you will be making today:
+
+[![YouTube](http://img.youtube.com/vi/yL6v7XNdGcE/0.jpg)](https://youtu.be/yL6v7XNdGcE)
+
+What is happening:
+
+There are 100 stars drawn in the top half of the screen. They are drawn as crosses. They have randomly assigned colours.
+
+The colours on the lines that meet in the centre span the HSB colour space.
+
+There are two "spaceships" that start in the centre of the screen and move towards the sides. When each ship reaches the side of the screen, it changes direction and comes back.
+
+To get full marks, you should use loops, arrays, the if statement and a class in your solution.
+
+## Lecture
+- [Video of the class](https://web.microsoftstream.com/video/d3dfd721-dcfb-41e0-9a0f-1e416dcbe74a)
 
 ## Week 4 3D Cubes & Spheres responding to music
 - [The code we wrote](sketches/threeDCube.pde)
