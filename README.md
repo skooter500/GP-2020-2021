@@ -36,6 +36,10 @@ Resources
 
 # Semester 2
 
+## Week 6 - Bullets, ArrayList
+- [Video of the class](https://web.microsoftstream.com/video/96bdb82a-0b88-41be-81b1-65c17e117bf6?list=studio)
+- [Video of the lab](https://web.microsoftstream.com/video/dac64c5f-3c09-408d-aec4-b6932892f03f?list=studio)
+
 ## Week 5 - Classes & transforms
 - Classes
 - [pushMatrix](https://processing.org/reference/pushMatrix_.html) & [popMatrix](https://processing.org/reference/popMatrix_.html)
