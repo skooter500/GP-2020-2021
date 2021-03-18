@@ -46,6 +46,8 @@ OR! Make this in Processing:
 
 [![YouTube](http://img.youtube.com/vi/Nu1reFsEBrY/0.jpg)](https://youtu.be/Nu1reFsEBrY)
 
+- [Solution](sketches/binary/binary.pde)
+
 ## Lecture
 - [Notes about binary numbers](https://1drv.ms/p/s!Ak7y2552PWCrhfwWt0-eJQrvCjwHwg?e=q55kHG)
 - [Video of the class](https://web.microsoftstream.com/video/7de6884f-b743-4740-bf0d-60cb57f49faf?list=studio)
