@@ -30,14 +30,14 @@ void draw()
   float amplitude = 0;
   for(int i = 0 ; i < ab.size() ; i ++)
   {
-    amplitude = abs(ab.get(i));
+    amplitude += abs(ab.get(i));
   }
   amplitude = amplitude / (float) ab.size();
   lerpedAmplitude = lerp(lerpedAmplitude, amplitude, 0.1f);
   
   float r = 5;
   int sides = (int) map(lerpedAmplitude, 0, 1, 3, 20);
-  int iterations = 100;
+  int iterations = 10;
   float turnFactor = 5;
   
   float lastX = width / 2, lastY = (height /2) - r;

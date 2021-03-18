@@ -40,10 +40,15 @@ Resources
 
 ## Lab
 - [Worksheet](https://1drv.ms/w/s!Ak7y2552PWCrhft_--GKn97-v56DhA?e=X3AN9x)
+- [Worksheet solution](https://1drv.ms/w/s!Ak7y2552PWCrhft-lqikaWAxxvLxCw?e=w15nU8)
 
 OR! Make this in Processing:
 
 [![YouTube](http://img.youtube.com/vi/Nu1reFsEBrY/0.jpg)](https://youtu.be/Nu1reFsEBrY)
+
+## Lecture
+- [Notes about binary numbers](https://1drv.ms/p/s!Ak7y2552PWCrhfwWt0-eJQrvCjwHwg?e=q55kHG)
+- [Video of the class](https://web.microsoftstream.com/video/7de6884f-b743-4740-bf0d-60cb57f49faf?list=studio)
 
 ## Week 6 - Bullets, ArrayList
 - [Video of the class](https://web.microsoftstream.com/video/96bdb82a-0b88-41be-81b1-65c17e117bf6?list=studio)
