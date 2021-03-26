@@ -25,7 +25,7 @@ I will need you to make a youtube video demonstrating your assignment and write 
 
 Your assignment can be a game or just a visual art piece. You can make your assignment respond to whatever music is playing or it can be something inspired by a particular piece of music. I expect you to have to do self directed learning on the project and come up with ideas and code that we haven't done in the class. Check out these assignments from 2 years ago for inspiration:  
 
-[![Video](http://img.youtube.com/vi/PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x/0.jpg)](https://www.youtube.com/playlist?list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
+[![Video](http://img.youtube.com/vi/NGQbYEESZEg/0.jpg)](https://www.youtube.com/watch?v=NGQbYEESZEg&list=PL1n0B6z4e_E7I2bIWWpH8NAa6kPx95sw5)
 
 Marking Scheme:
 

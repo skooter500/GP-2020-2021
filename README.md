@@ -43,7 +43,7 @@ Resources
 ## Week 10 - More Unity
 
 ## Week 9 - Introduction to Unity - Tank Game
-- [Video of the class]()
+- [Video of the class](https://web.microsoftstream.com/video/dfdfe309-b298-4683-a2f3-50693a1860ac)
 
 ## Week 8
 
@@ -457,6 +457,11 @@ Exercises
 - Keyboard handling
 - State
 
+- 3 exercises. Click the image for video:
+
+[![YouTube](http://img.youtube.com/vi/18kMOeygmHA/0.jpg)](https://www.youtube.com/watch?v=18kMOeygmHA)
+
+
 Part 1
 
 - [Download and unzip the starter project for today's lab](https://github.com/skooter500/GP-2017-2018/blob/master/downloads/rick_n_morty_starter.zip?raw=true) 
@@ -500,6 +505,8 @@ You can use the function [text](https://processing.org/reference/text_.html) to 
 ### Part 2 - Spiral Jam
 
 Experiment with the spirals sketch and see what kind of crazy beautiful spirals you can make. Use variables for colour gradients, use different shapes etc etc.
+
+
 
 
 # Week 2 - Using variables
