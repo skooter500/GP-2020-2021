@@ -36,6 +36,15 @@ Resources
 
 # Semester 2
 
+## Week 12 - Physics
+
+## Week 11 - Vectors
+
+## Week 10 - More Unity
+
+## Week 9 - Introduction to Unity - Tank Game
+- [Video of the class](https://web.microsoftstream.com/video/dfdfe309-b298-4683-a2f3-50693a1860ac)
+
 ## Week 8
 
 ## Lab
@@ -59,6 +68,18 @@ OR! Make this in Processing:
 ## Week 5 - Classes & transforms
 - Classes
 - [pushMatrix](https://processing.org/reference/pushMatrix_.html) & [popMatrix](https://processing.org/reference/popMatrix_.html)
+
+## Lab
+Today you can make two more classes to encapsulate the behaviour of health and ammo powerups as per this video:
+
+[![YouTube](http://img.youtube.com/vi/Bfr0S6oTBsc/0.jpg)](https://www.youtube.com/watch?v=Bfr0S6oTBsc)
+
+To complete this lab!
+
+- Make a class called Health. Initially it should spawn off screen and move in a random direction onscreen. It could spawn from the top, bottom, left or right side of the screen. You can use yasc.random to generate random numbers. I wrote a respawn method on the class and call it from the constructor to set the initial x, y, dx and dy values. Notice how the health is drawn and notice in the video that the health is rotating as well as moving. If the health goes off the side of the screen it should respawn. Don't forget to create an instance of the Health in YASC.java and call update and render.
+- Do the same for Ammo
+- Add health and ammo fields to the Player class and print the health and ammo beside the player
+- Add code in YASC.pde to check collisions between the player and either of the powerups and add to the player's health and ammo stats. To check collisions, you can check id the distance between the player and the powerup < the sum of the two radii. You can use the ```dist``` function to calculate the distance. 
 
 ## Lab
 
@@ -99,6 +120,7 @@ Here is some inspiration from sketches my class wrote a couple of years ago
 ## Lecture - 3D Cube & Sphere
 -[Video of the class](https://web.microsoftstream.com/video/2277338a-44b9-4a0c-a8fc-6416da9d44fb)
 
+![Image](images/p40.png)
 
 ## Week 3 - Visualising the FFT (Frequency Spectrum)
 
@@ -167,6 +189,14 @@ Try the lerping technique on the actual audio samples. To do this:
 ## Part 3
 - See what other drawing elements - rectangles, triangles etc you can control using the average amplitude of the sound
 
+Some audio responsive stuff I have been working on recently:
+
+[![YouTube](http://img.youtube.com/vi/4Fc_OW4M5AU/0.jpg)](https://www.youtube.com/watch?v=4Fc_OW4M5AU)
+
+[![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
+
+[![YouTube](http://img.youtube.com/vi/KNymjRyr27A/0.jpg)](https://www.youtube.com/watch?v=KNymjRyr27A)
+
 
 # Week 11 - End of semester test
 
@@ -209,6 +239,51 @@ Hints!
 
 # Week 10 - The Game of Life
 
+Write the method ```updateBoard```. This method should iterate over the board cell by cell using a nested for loop and apply the Game of Life rules:
+
+1. If the cell is alive (true) then if the cell has exactly 2 or 3 neighbours it survives (gets set to true), otherwise it dies (gets set to false)
+2. If the cell is dead (false) then it comes to life if it has exactly 3 neighbours, otherwise it stays dead in the next generation.
+
+This is important so please read carefully!!
+
+You have to read values from *board*, but you set values in *next*, which is a 2D array the same size as board. At the end of the method you *swap* board and next. I have left the swapping code in the method, so you don't have to write it. This is so that when you for example, kill a cell or bring a cell to life, you don't screw up the count for other cells in that generation.
+
+Again - in ```updateBoard```
+
+1. Write a nested for loop that gets the row and col for every cell
+2. Count the neighbours (use the method we wrote on Monday for this) 
+2. Check if the cell is alive, apply the rules for alive cells to next
+2. If the cell is dead, apply the rules for dead cells to next
+2. Swap board and next
+
+Your game of life should look like this if you implement the rules correctly (click the image for a video):
+
+[![YouTube](http://img.youtube.com/vi/SmH2r_ChmFY/0.jpg)](https://www.youtube.com/watch?v=SmH2r_ChmFY)
+
+Some extra things you can implement you can see in the video:
+
+- Increase size and change the size of the screen and see what effect this has on the simulation 
+- Press space to pause and resume the simulation
+- Press 1 to randomise the board again
+- Press 2 to clear the board
+- Press 3 to draw a cross shape and see how it evolves
+- Drag the mouse across the window to set cells at the mouse position to be alive.
+
+Some extra things you can implement that are not in the video
+
+- Draw a glider at the mouse position. This is starting pattern that will evolve a pattern that walks across the screen
+- Draw a Gosper Gun at the mouse position. This is a starting pattern that will spawn creatures indefinitely
+
+You can read more about these starting patterns and others in [this wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and see examples in this video:
+
+[![YouTube](http://img.youtube.com/vi/HMYh4jKdtNU/0.jpg)](https://www.youtube.com/watch?v=HMYh4jKdtNU)
+
+If you want to learn more about cellular automata check out: 
+
+- [The Nature of Code](https://natureofcode.com/)
+- [A New Kind of Science](https://writings.stephenwolfram.com/2017/05/a-new-kind-of-science-a-15-year-view/)
+
+
 # Week 9 - Arrays
 
 [![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
@@ -245,21 +320,28 @@ Create a Processing sketch and do the following:
 
 Now see if you can write code to generate the following graphs of the rainfall data:
 
-- A bar chart:
+A bar chart:
 
-  ![Sketch](images/p11.png)
+  ![Sketch](images/p37.png)
+
+  Start by drawing the axis, then draw the ticks and print the text, then draw the bars. You can use ```textAlign(CENTER, CENTER)``` to align the text
+  Use the HSB color space to assign different colors to each bar
 
 - A trend line:
 
-  ![Sketch](images/p12.png)
+	![Sketch](images/p38.png)
 
-Advanced:
+  This one is a bit trickier because you have to calculate the start xy and end xy for each line. Your for loop for drawing the trend lines can start at 1 instead of 0 and then you can get the previous value for the start of each line by taking rainfall[i - 1].
 
-Try and draw a pie chart!
+- A pie chart 
 
-![Sketch](images/p25.png)
+	![Sketch](images/p39.png)
 
-Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. You an use random colours so that every month has a different colour.
+	You can use the the [arc function](https://processing.org/reference/arc_.html) to draw arcs and sin & cos to calculate the x and y coordinates to print the text. This one is the most challenging. Remember that a pie chart shows the proportion of each data point in the sum of all the data, so you will have to calculate the sum of all the rain fall and figure out how much each month is relative to the sum. It's best to draw the segments first and then draw the labels. Your map function might look something like this:
+
+	```Java
+	float angle = map(rainfall[i], 0, sum, 0, TWO_PI);
+	```
 
 ## Week 7 - More Loops
 
@@ -356,6 +438,7 @@ Use a nested loop (a loop inside a loop) to draw this:
 - [Full source code for BugZap](https://github.com/skooter500/BugZap/)
 - [Moving letters library](https://drive.google.com/open?id=1zXtP8-P2-kE6aVsC2dTwhR2fooC60TfZ) - Install this into the ```Documents\Processing\libraries\movingletters\library``` folder on your computer
 
+[![YouTube](http://img.youtube.com/vi/s6PA8jtWneQ/0.jpg)](https://www.youtube.com/watch?v=s6PA8jtWneQ)
 
 ### Semester 1 
 
@@ -373,6 +456,11 @@ Exercises
 - Ball bounce around the screen
 - Keyboard handling
 - State
+
+- 3 exercises. Click the image for video:
+
+[![YouTube](http://img.youtube.com/vi/18kMOeygmHA/0.jpg)](https://www.youtube.com/watch?v=18kMOeygmHA)
+
 
 Part 1
 
@@ -417,6 +505,8 @@ You can use the function [text](https://processing.org/reference/text_.html) to 
 ### Part 2 - Spiral Jam
 
 Experiment with the spirals sketch and see what kind of crazy beautiful spirals you can make. Use variables for colour gradients, use different shapes etc etc.
+
+
 
 
 # Week 2 - Using variables
