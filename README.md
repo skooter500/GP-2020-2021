@@ -42,6 +42,10 @@ Resources
 
 ## Week 10 - More Unity
 
+- [Video of the first class on Teams](https://web.microsoftstream.com/video/db83a125-70cf-484b-a05c-c1ca07a215ab?list=studio)
+- [Video of the second class](https://www.youtube.com/watch?v=fF6TW2t_7M0)
+- [Setting up a Processing project in GitHub (kinda)](https://youtu.be/0ghmP0iCGPg)
+
 ## Week 9 - Introduction to Unity - Tank Game
 - [Video of the class](https://web.microsoftstream.com/video/dfdfe309-b298-4683-a2f3-50693a1860ac)
 
