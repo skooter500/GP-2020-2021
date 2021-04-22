@@ -31,14 +31,17 @@ Resources
 - Monday 7th - Assignment 1 submission 15%
 - Monday 14th - December Lab Test 25%
 - Assignment 2 - 15%
-- Assignment 3 - 20% - Week 10 Semester 2
-- End of Year lab test - 25% - TBC 
+- Assignment 3 - 20% - Thursday 6 April
+- End of Year lab test - 25% - Thursday 13th May
 
 # Semester 2
 
 ## Week 12 - Physics
 
-## Week 11 - Vectors
+## Week 11 - git
+- [Video of the first class (using git with processing)](https://youtu.be/qzdMv5nL5ec)
+- [Video of the second class (Using git with Unity)](https://youtu.be/QdGZlKRc3B0)
+- [git manual (read the first 3 chapters)](https://git-scm.com/docs/user-manual)
 
 ## Week 10 - More Unity
 
