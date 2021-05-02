@@ -31,7 +31,7 @@ Resources
 - Monday 7th - Assignment 1 submission 15%
 - Monday 14th - December Lab Test 25%
 - Assignment 2 - 15%
-- Assignment 3 - 20% - Thursday 6 April
+- Assignment 3 - 20% - Friday 14th May
 - End of Year lab test - 25% - Thursday 13th May
 
 # Semester 2
@@ -512,9 +512,6 @@ You can use the function [text](https://processing.org/reference/text_.html) to 
 ### Part 2 - Spiral Jam
 
 Experiment with the spirals sketch and see what kind of crazy beautiful spirals you can make. Use variables for colour gradients, use different shapes etc etc.
-
-
-
 
 # Week 2 - Using variables
 ### Learning Outcomes
