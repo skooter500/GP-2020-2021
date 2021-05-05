@@ -31,12 +31,13 @@ Resources
 - Monday 7th - Assignment 1 submission 15%
 - Monday 14th - December Lab Test 25%
 - Assignment 2 - 15%
-- Assignment 3 - 20% - Friday 14th May
+- Assignment 3 - 20% - Friday 14th May - [Submit your assignment git repo here](https://docs.google.com/forms/d/e/1FAIpQLSdq2rqmjZ2QDB6WIUlIH7oLDAuzz8KKtPUHYN0CxDslQfiuvw/viewform) 
 - End of Year lab test - 25% - Thursday 13th May
 
 # Semester 2
 
-## Week 12 - Physics
+## Week 12 - Vectors
+- [Video of the class](https://www.youtube.com/watch?v=Zi6NZrgNODw)
 
 ## Week 11 - git
 - [Video of the first class (using git with processing)](https://youtu.be/qzdMv5nL5ec)
