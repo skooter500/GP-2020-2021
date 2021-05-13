@@ -36,6 +36,28 @@ Resources
 
 # Semester 2
 
+# End of Year Test
+
+Here is a video of the program you will be writing today:
+
+[![YouTube](http://img.youtube.com/vi/mtJ2EO3D-3M/0.jpg)](https://www.youtube.com/watch?v=mtJ2EO3D-3M)
+
+What is happening:
+
+- Every second a new car will spawn at the top of the screen and drive towards the center
+- Cars have random colours
+- When a car reaches the center, it will randomly decide to drive to the left or the right
+
+Marking Scheme:
+
+| Description | Marks |
+|-------------|-------|
+| Drawing the roads | 20 marks |
+| Car movement | 20 marks |
+| Car choosing left or right | 20 marks |
+| Multiple cars | 20 marks |
+| Any other cool stuff you want to add | 20 marks | 
+
 ## Week 12 - Vectors
 - [Video of the class](https://www.youtube.com/watch?v=Zi6NZrgNODw)
 
